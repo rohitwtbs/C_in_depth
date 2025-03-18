@@ -3,10 +3,10 @@
 #include <string.h>
 
 int main(int argc, char *argv[]) {
-    if (argc != 3) {
-        fprintf(stderr, "Usage: %s <username> <email>\n", argv[0]);
-        return 1;
-    }
+    // if (argc != 3) {
+    //     fprintf(stderr, "Usage: %s <username> <email>\n", argv[0]);
+    //     return 1;
+    // }
 
     char *username = "rohitwtbs";
     char *email = "12rohit4@gmail.com";
