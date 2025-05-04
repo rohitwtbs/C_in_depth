@@ -1,0 +1,4 @@
+This is a sample text file.
+It contains multiple lines of text.
+Each process will read a portion of this file.
+This demonstrates parallel file reading using multiple processes.
