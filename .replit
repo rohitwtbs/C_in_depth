@@ -13,4 +13,4 @@ mode = "sequential"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "gcc threads.c -o threads -pthread && ./threads"
+args = "gcc file_reader.c -o file_reader && ./file_reader"
