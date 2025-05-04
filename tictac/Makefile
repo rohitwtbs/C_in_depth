@@ -15,3 +15,7 @@ clean:
 run: $(TARGET)
   ./$(TARGET)
   @$(MAKE) clean
+
+
+
+  gcc -I "/System/Volumes/Data/opt/homebrew/Cellar/raylib/5.5/include" -L "/System/Volumes/Data/opt/homebrew/Cellar/raylib/5.5/lib" -lraylib -o tictactoe tictactoe.c
