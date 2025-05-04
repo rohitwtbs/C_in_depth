@@ -1,4 +1,4 @@
-#include "raylib.h"
+#include "/System/Volumes/Data/opt/homebrew/Cellar/raylib/5.5/include/raylib.h"
 #include <stdio.h>
 
 #define CELL_SIZE 100
