@@ -2,3 +2,15 @@ modules = ["c-clang14", "cpp-clang14"]
 
 [nix]
 channel = "stable-24_05"
+
+[workflows]
+runButton = "Run"
+
+[[workflows.workflow]]
+name = "Run"
+author = 19276815
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "gcc threads.c -o threads -pthread && ./threads"
